@@ -48,6 +48,14 @@ services:
             - fileservice
             - db
 
+    streamservice:
+        build: ./video_streamer
+        ports:
+            - "8083:8080"
+        depends_on:
+            - db
+
+
 
 volumes:
     minio-data:
