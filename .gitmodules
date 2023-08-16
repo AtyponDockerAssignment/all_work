@@ -1,6 +1,12 @@
 [submodule "authservice"]
 	path = authservice
-	url = /home/mythi/development/video_streaming_service/authservice/
+	url = ./authservice
 [submodule "video_streamer"]
 	path = video_streamer
 	url = ./video_streamer
+[submodule "video_uploader"]
+	path = video_uploader
+	url = ./video_uploader
+[submodule "fileservice"]
+	path = fileservice
+	url = ./fileservice
