@@ -1,12 +1,12 @@
 [submodule "authservice"]
 	path = authservice
-	url = ./authservice
+	url = git@github.com:AtyponDockerAssignment/authservice.git
 [submodule "video_streamer"]
 	path = video_streamer
-	url = ./video_streamer
+	url = git@github.com:AtyponDockerAssignment/video_streamer.git
 [submodule "video_uploader"]
 	path = video_uploader
-	url = ./video_uploader
+	url = git@github.com:AtyponDockerAssignment/video_uploader.git
 [submodule "fileservice"]
 	path = fileservice
-	url = ./fileservice
+	url = git@github.com:AtyponDockerAssignment/fileservice.git
